@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #0074B7;
+    border-top: 1px solid #0074B7;
+    margin: 25px 0;
+}
+
+.categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.categories li {
+    display: inline-block;
+}
+
+.categories a {
+    color: #000;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.categories a:hover {
+    background-color: #0074B7;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.container {
+    margin: 30px auto;
+    width: 100%;
+}
+
+.buttonside {
+    display: flex;
+    flex-direction: column;
+    background-color: #BFD7ED;
+    width: 100%;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+.buttonside:hover {
+    background-color: #0074B7;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+.page-content{
+    display: flex;
+    margin: auto;
+    background-color: #BFD7ED;
+    width: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(1, 1, 1, 0.5);
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 5px 20px 15px 20px;
+        width: 100%;
+        color: black;
+        justify-content: center;
+    align-items: center;
+
+}
+input {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+label {
+    margin-bottom: 10px;
+}
+mrow{
+    margin: 5px;
+}
+
+button.hint
+{   background:none;
+    border:none; 
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    background-color: antiquewhite;
+}
+@media screen and (max-width: 970px) {
+    .card{
+        font-size: 14px;
+        max-width: 35%;
+        max-height: 350px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .card{
+        font-size: 14px;
+        max-width: 60%;
+        max-height: 350px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .card{
+        font-size: 10px;
+        max-width: 60%;
+        max-height: 350px;
+    }
+    .card img{
+        height: 40%;
+    }
+    .container-elements{
+        font-size: 16px;
+    }
+}

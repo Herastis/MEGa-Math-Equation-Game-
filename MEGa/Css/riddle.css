@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+}
+.container{
+    display: block;
+}
+.elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.enunt{
+    font-size: 30px;
+    width: 50%;
+    margin: 5px 20px;
+}
+.r-image{
+    width: 350px;
+    height: 300px;
+    margin: 5px 20px;
+}
+.hidden{
+    display: block;
+    margin: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.next-btn{
+    display: block;
+    margin: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.btn{
+    background-color: #0074B7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.raspuns{
+    display: none;
+}
+.btn-next{
+    align-items: center;
+    background-color: #0074B7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #0074B7;
+    border-top: 1px solid #0074B7;
+    margin: 25px 0;
+}
+
+.categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.categories li {
+    display: inline-block;
+}
+
+.categories a {
+    color: #000;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.categories a:hover {
+    background-color: #0074B7;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.container {
+    margin: 30px auto;
+    width: 100%;
+}
+
+
+
+.page-content{
+    display: flex;
+    margin: 20px auto;
+    background-color: #BFD7ED;
+    width: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game{
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(1, 1, 1, 0.5);
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 5px 20px 15px 20px;
+        width: 100%;
+        color: black;
+        justify-content: center;
+    align-items: center;
+
+}
+input {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+label {
+    margin-bottom: 10px;
+}
+mrow{
+    margin: 5px;
+}
+
+button.hint
+{   background:none;
+    border:none; 
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    background-color: antiquewhite;
+}
+
+@media screen and (max-width: 350px) {
+
+    .container-elements{
+        font-size: 16px;
+    }
+}
