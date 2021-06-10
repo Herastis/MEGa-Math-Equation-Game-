@@ -2,7 +2,7 @@
     $db = mysqli_connect('localhost', 'root', '', 'MEGa');
     $categorie=$_POST['categorie'];
     if(isset($_POST["Export"])){
-        if (strcmp($categorie,"algebra")!=0 && strcmp($categorie,"geometrie")!=0 && strcmp($categorie,"trigonometrie")!=0 && strcmp($categorie,"analiza"!=0)){
+        if (strcmp($categorie,"algebra")!=0 && strcmp($categorie,"geometrie")!=0 && strcmp($categorie,"trigonometrie")!=0 && strcmp($categorie,"analiza")!=0){
             echo "<script>
             alert('Categorie incorecta !');
             window.location.href='exportecuatii.php';

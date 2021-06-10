@@ -139,7 +139,7 @@
             <h4 id="general_description">Descriere generală</h4>
             <ul>
                 <li>
-                    <p>Pagina principală - Homepage: conține un meniu ce contine : pagina de exercitii , pagina documentatiei , pagina de login si pagina de inregistrare</p>
+                    <p>Pagina principală - Homepage: conține un meniu ce contine : pagina de exercitii , pagina cu quiz , pagina cu ghicitori , pagina documentatiei , pagina de login si pagina de inregistrare</p>
                 </li>
                 <li>
                     <p>Paginile contului - Login, Register: sunt destinate pentru logarea utilizatorului și crearea unui cont nou.</p>
@@ -171,11 +171,11 @@
                 <li>
                     <h5 id="games">Functionalitățile jocurilor</h5>
                     <p>Exercițiile propriu-zise sunt afișate iar utilizatorul va putea răspunde la toate exercițiile deodată. După trimiterea răspunsului se va afișa numărul de întrebări la care a răspuns corect utilizatorul.</p>
-                    <p>Quiz game este un test pentru copii ce se afla la scoala primara și conține 5 întrebări, care sunt evaluate după submit.</p>
+                    <p>Quiz game este un test pentru copii ce se află la școala primară și conține 5 întrebări, care sunt evaluate după submit.</p>
                 </li>
                 <li>
                     <h5 id="games">Interfața software</h5>
-                    <p>Aplicația comunică cu o baza de date MySQL, din care extragem/inserăm informațiile de care avem nevoie. </p>
+                    <p>Aplicația comunică cu o bază de date MySQL, din care extragem/inserăm informațiile de care avem nevoie. </p>
                 </li>
             </ul>
         </section>
@@ -193,7 +193,7 @@
             <p>Pentru funcția de logare folosim un formular în HTML pentru a prelua datele utilizatorului, apoi verificăm dacă utilizatorul a completat formularul de logare si verificam daca se află în baza de date. Aici verificăm dacă utilizatorul este admin și îi dăm drept de admin. Apoi redirecționăm către homepage. </p>
             
             <h5>Funcțiile adminului</h5>
-            <p>Adminul are propria sa interfață de unde poate exercita comenzi asupra bazei de date: poate adăuga exerciții ca toți userii (completând un formular sau prin upload csv) dar , în plus față de utilizatorii normali , acesta poate șterge conturi. </p>
+            <p>Adminul are propria sa interfață de unde poate exercita comenzi asupra bazei de date: poate adăuga exerciții ca toți userii (completând un formular sau prin upload csv) dar , în plus față de utilizatorii normali , acesta poate șterge conturi si poate face download la un fișier csv ce conține exerciții dintr-un anumit domeniu. </p>
            
             <h5>Implementarea exercițiilor</h5>
             <p>Exercițiile sunt preluate din baza de date corespunzătoare categoriei specifice. Utilizatorii vor putea adăuga exerciții completând un formular sau făcând upload la un fișier csv.</p>
@@ -202,7 +202,7 @@
             <p>După ce datele introduse in formular au fost trimise către server , acestea se preiau și se verifică cu rezultatul din baza de date , astfel modificând numărul de răspunsuri corecte și afișându-l la final.</p>  
 
             <h5>Quiz game</h5>
-            <p>Quiz-ul reprezintă un test de inteligență matematică. Este creat într-un formular, iar răspunsul este trimis în PHP pentru validare. PHP-ul în urma validării, va afisa cate intrebari au fost avut raspunsul corect.</p>
+            <p>Quiz-ul reprezintă un test de inteligență matematică. Este creat într-un formular, iar răspunsul este trimis în PHP pentru validare. PHP-ul în urma validării, va afisa cate intrebari au avut raspunsul corect.</p>
         
         </section>
 
